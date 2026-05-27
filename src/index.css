@@ -1,1 +1,26 @@
-@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;800&display=swap');
+@import 'tailwindcss';
+@import './styles/tokens.css';
+@import './styles/primitives.css';
+@import './styles/sign-up-sheet.css';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background-color: var(--color-surface);
+  color: var(--color-fg);
+  font-family:
+    'Lato',
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    Arial,
+    sans-serif;
+}
