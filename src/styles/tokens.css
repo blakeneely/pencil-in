@@ -1,0 +1,121 @@
+/*
+ * Design tokens for the sign-up-sheet component system.
+ * Light is the default (declared at :root). Other themes scope via [data-theme="..."].
+ * Tailwind 4's @theme directive auto-generates utilities (bg-surface, text-fg, etc.).
+ */
+
+@theme {
+  --color-surface: #faf7f4;
+  --color-surface-elevated: #ffffff;
+  --color-fg: #1a1a1a;
+  --color-fg-muted: #685f5b;
+  --color-headline: #f16622;
+  --color-headline-fg: #ffffff;
+  --color-accent: #1a91b0;
+  --color-accent-fg: #ffffff;
+  --color-success: #6f8a1f;
+  --color-danger: #dc2626;
+  --color-border: #e5e0db;
+
+  --color-avatar-1: #d97757;
+  --color-avatar-2: #1a91b0;
+  --color-avatar-3: #b06f9e;
+  --color-avatar-4: #6f8a1f;
+  --color-avatar-5: #c98a14;
+  --color-avatar-6: #5a6cb0;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+
+  --radius-sm: 0.125rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.75rem;
+}
+
+:root,
+[data-theme='light'] {
+  --color-surface: #faf7f4;
+  --color-surface-elevated: #ffffff;
+  --color-fg: #1a1a1a;
+  --color-fg-muted: #685f5b;
+  --color-headline: #f16622;
+  --color-headline-fg: #ffffff;
+  --color-accent: #1a91b0;
+  --color-accent-fg: #ffffff;
+  --color-success: #6f8a1f;
+  --color-danger: #dc2626;
+  --color-border: #e5e0db;
+
+  --color-avatar-1: #d97757;
+  --color-avatar-2: #1a91b0;
+  --color-avatar-3: #b06f9e;
+  --color-avatar-4: #6f8a1f;
+  --color-avatar-5: #c98a14;
+  --color-avatar-6: #5a6cb0;
+}
+
+[data-theme='dark'] {
+  --color-surface: #1d1b20;
+  --color-surface-elevated: #2a2421;
+  --color-fg: #f8f0eb;
+  --color-fg-muted: #c1b3aa;
+  --color-headline: #f89f43;
+  --color-headline-fg: #1d1b20;
+  --color-accent: #5dbed8;
+  --color-accent-fg: #1d1b20;
+  --color-success: #acc034;
+  --color-danger: #f87171;
+  --color-border: #3a302c;
+
+  --color-avatar-1: #e89070;
+  --color-avatar-2: #5dbed8;
+  --color-avatar-3: #cc92c0;
+  --color-avatar-4: #a8c34b;
+  --color-avatar-5: #e3b04a;
+  --color-avatar-6: #8a9bd0;
+}
+
+[data-theme='mando'] {
+  --color-surface: #fff8f1;
+  --color-surface-elevated: #ffffff;
+  --color-fg: #16071a;
+  --color-fg-muted: #6b5f6e;
+  --color-headline: #16071a;
+  --color-headline-fg: #fff8f1;
+  --color-accent: #889273;
+  --color-accent-fg: #fff8f1;
+  --color-success: #889273;
+  --color-danger: #dc2626;
+  --color-border: #a6918d;
+
+  --color-avatar-1: #889273;
+  --color-avatar-2: #6b5f6e;
+  --color-avatar-3: #a6918d;
+  --color-avatar-4: #4d4554;
+  --color-avatar-5: #b8a892;
+  --color-avatar-6: #735e4a;
+}
+
+[data-theme='boba'] {
+  --color-surface: #d4c4a4;
+  --color-surface-elevated: #e8dcc6;
+  --color-fg: #1f1d18;
+  --color-fg-muted: #5a5340;
+  --color-headline: #3d6a3a;
+  --color-headline-fg: #e8dcc6;
+  --color-accent: #d4a82c;
+  --color-accent-fg: #1f1d18;
+  --color-success: #7a8a4d;
+  --color-danger: #890909;
+  --color-border: #998c6e;
+
+  --color-avatar-1: #3d6a3a;
+  --color-avatar-2: #d4a82c;
+  --color-avatar-3: #890909;
+  --color-avatar-4: #5a5340;
+  --color-avatar-5: #7a8a4d;
+  --color-avatar-6: #998c6e;
+}

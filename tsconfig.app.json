@@ -19,7 +19,15 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    /* Path aliases */
+    "paths": {
+      "@component-library/primitives": ["./src/lib/primitives/index.ts"],
+      "@component-library/primitives/*": ["./src/lib/primitives/*"],
+      "@component-library/sign-up-sheet": ["./src/lib/sign-up-sheet/index.ts"],
+      "@component-library/sign-up-sheet/*": ["./src/lib/sign-up-sheet/*"]
+    }
   },
   "include": ["src"]
 }

@@ -1,0 +1,13 @@
+/*
+ * Primitive-level CSS rules that don't fit Tailwind utilities.
+ * Currently: responsive force-open for CollapsibleSection on desktop.
+ */
+
+@media (min-width: 768px) {
+  details[data-collapsible-section] > summary {
+    display: none;
+  }
+  details[data-collapsible-section] > [data-collapsible-content] {
+    display: block !important;
+  }
+}
